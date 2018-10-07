@@ -8,62 +8,191 @@ Project File Date:  09/27/2018
 
 <h2>Output:</h2>
 Build target 'Target 1'
-compiling display.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT?DISPLAY
-Program Size: data=9.0 xdata=0 code=64
-"mifi" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
 compiling main.c...
+MAIN.C(12): error C132: 'main': not in formal parameter list
+MAIN.C(12): error C141: syntax error near '{'
+MAIN.C(16): error C244: 'P55': can't initialize, bad type or class
+MAIN.C(16): error C132: 'P55': not in formal parameter list
+MAIN.C(17): error C141: syntax error near '50'
+MAIN.C(17): error C132: 'delayms': not in formal parameter list
+MAIN.C(18): error C244: 'P55': can't initialize, bad type or class
+MAIN.C(18): error C132: 'P55': not in formal parameter list
+MAIN.C(19): error C141: syntax error near '50'
+MAIN.C(19): error C132: 'delayms': not in formal parameter list
+MAIN.C(21): error C141: syntax error near '}'
 compiling display.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT?DISPLAY
-Program Size: data=9.0 xdata=0 code=64
-"mifi" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-assembling STARTUP.A51...
-compiling main.c...
-compiling display.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT?DISPLAY
-Program Size: data=9.0 xdata=0 code=64
-"mifi" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT?DISPLAY
-Program Size: data=9.0 xdata=0 code=64
-"mifi" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling display.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT?DISPLAY
-Program Size: data=9.0 xdata=0 code=64
-"mifi" - 0 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling display.c...
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?INIT?DISPLAY
-Program Size: data=9.0 xdata=0 code=64
-"mifi" - 0 Error(s), 1 Warning(s).
 compiling delay_fun.c...
-delay_fun.c(1): error C309: bad or missing filename
-delay_fun.c(1): warning C318: can't open file ''
-delay_fun.c - 1 Error(s), 1 Warning(s).
-Build target 'Target 1'
-compiling delay_fun.c...
-delay_fun.c(1): error C309: bad or missing filename
-delay_fun.c(1): warning C318: can't open file ''
+DELAY_FUN.C(4): error C132: '_delayms': not in formal parameter list
+DELAY_FUN.C(4): error C141: syntax error near '{'
+DELAY_FUN.C(5): error C136: 'a': 'void' on variable
+DELAY_FUN.C(5): error C132: 'a': not in formal parameter list
+DELAY_FUN.C(5): error C136: 'b': 'void' on variable
+DELAY_FUN.C(5): error C132: 'b': not in formal parameter list
+DELAY_FUN.C(6): error C141: syntax error near 'for'
+DELAY_FUN.C(6): error C141: syntax error near '=', expected ')'
+DELAY_FUN.C(6): error C129: missing ';' before '<'
 Target not created
 Build target 'Target 1'
+compiling main.c...
 compiling delay_fun.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?INIT?DISPLAY
-Program Size: data=9.0 xdata=0 code=64
+Program Size: data=9.0 xdata=0 code=68
 "mifi" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling display.c...
+DISPLAY.C(3): error C129: missing ';' before ':'
+compiling delay_fun.c...
+Target not created
+Build target 'Target 1'
+compiling display.c...
+DISPLAY.C(18): error C141: syntax error near 'dat', expected ')'
+DISPLAY.C(20): error C141: syntax error near 'i'
+DISPLAY.C(20): error C202: 'i': undefined identifier
+DISPLAY.C(21): error C141: syntax error near 'a'
+DISPLAY.C(21): error C202: 'a': undefined identifier
+DISPLAY.C(22): error C202: 'i': undefined identifier
+DISPLAY.C(24): error C202: 'P5': undefined identifier
+DISPLAY.C(25): error C202: 'a': undefined identifier
+DISPLAY.C(26): error C202: 'a': undefined identifier
+DISPLAY.C(27): error C202: 'P7': undefined identifier
+DISPLAY.C(29): error C202: 'P7': undefined identifier
+DISPLAY.C(30): error C202: 'Delay': undefined identifier
+DISPLAY.C(31): error C202: 'P5': undefined identifier
+DISPLAY.C(33): error C202: 'P5': undefined identifier
+DISPLAY.C(44): error C202: 'P6': undefined identifier
+DISPLAY.C(45): error C202: 'Delay': undefined identifier
+DISPLAY.C(46): error C202: 'P6': undefined identifier
+DISPLAY.C(49): error C202: 'P6': undefined identifier
+DISPLAY.C(50): error C202: 'Delay': undefined identifier
+DISPLAY.C(51): error C202: 'P6': undefined identifier
+DISPLAY.C(54): error C202: 'P6': undefined identifier
+DISPLAY.C(55): error C202: 'Delay': undefined identifier
+DISPLAY.C(56): error C202: 'P6': undefined identifier
+DISPLAY.C(66): error C141: syntax error near 'add', expected ')'
+DISPLAY.C(68): error C202: 'P6': undefined identifier
+DISPLAY.C(69): error C202: 'Delay': undefined identifier
+DISPLAY.C(70): error C202: 'P6': undefined identifier
+DISPLAY.C(71): error C202: 'add': undefined identifier
+DISPLAY.C(72): error C202: 'data1': undefined identifier
+DISPLAY.C(83): error C208: '_DIS_1668': too many actual parameters
+DISPLAY.C(84): error C208: '_DIS_1668': too many actual parameters
+DISPLAY.C(85): error C208: '_DIS_1668': too many actual parameters
+Target not created
+Build target 'Target 1'
+compiling display.c...
+DISPLAY.H(21): error C141: syntax error near 'dat', expected ')'
+DISPLAY.H(23): error C141: syntax error near 'add', expected ')'
+DISPLAY.C(18): error C141: syntax error near 'dat', expected ')'
+DISPLAY.C(20): error C141: syntax error near 'i'
+DISPLAY.C(20): error C202: 'i': undefined identifier
+DISPLAY.C(21): error C141: syntax error near 'a'
+DISPLAY.C(21): error C202: 'a': undefined identifier
+DISPLAY.C(22): error C202: 'i': undefined identifier
+DISPLAY.C(24): error C202: 'P5': undefined identifier
+DISPLAY.C(25): error C202: 'a': undefined identifier
+DISPLAY.C(26): error C202: 'a': undefined identifier
+DISPLAY.C(27): error C202: 'P7': undefined identifier
+DISPLAY.C(29): error C202: 'P7': undefined identifier
+DISPLAY.C(30): error C202: 'Delay': undefined identifier
+DISPLAY.C(31): error C202: 'P5': undefined identifier
+DISPLAY.C(33): error C202: 'P5': undefined identifier
+DISPLAY.C(44): error C202: 'P6': undefined identifier
+DISPLAY.C(45): error C202: 'Delay': undefined identifier
+DISPLAY.C(46): error C202: 'P6': undefined identifier
+DISPLAY.C(49): error C202: 'P6': undefined identifier
+DISPLAY.C(50): error C202: 'Delay': undefined identifier
+DISPLAY.C(51): error C202: 'P6': undefined identifier
+DISPLAY.C(54): error C202: 'P6': undefined identifier
+DISPLAY.C(55): error C202: 'Delay': undefined identifier
+DISPLAY.C(56): error C202: 'P6': undefined identifier
+DISPLAY.C(66): error C141: syntax error near 'add', expected ')'
+DISPLAY.C(68): error C202: 'P6': undefined identifier
+DISPLAY.C(69): error C202: 'Delay': undefined identifier
+DISPLAY.C(70): error C202: 'P6': undefined identifier
+DISPLAY.C(71): error C202: 'add': undefined identifier
+DISPLAY.C(72): error C202: 'data1': undefined identifier
+DISPLAY.C(83): error C208: '_DIS_1668': too many actual parameters
+DISPLAY.C(84): error C208: '_DIS_1668': too many actual parameters
+DISPLAY.C(85): error C208: '_DIS_1668': too many actual parameters
+Target not created
+Build target 'Target 1'
+compiling display.c...
+DISPLAY.H(21): error C141: syntax error near 'dat', expected ')'
+DISPLAY.H(23): error C141: syntax error near 'add', expected ')'
+DISPLAY.C(18): error C141: syntax error near 'dat', expected ')'
+DISPLAY.C(20): error C141: syntax error near 'i'
+DISPLAY.C(20): error C202: 'i': undefined identifier
+DISPLAY.C(21): error C141: syntax error near 'a'
+DISPLAY.C(21): error C202: 'a': undefined identifier
+DISPLAY.C(22): error C202: 'i': undefined identifier
+DISPLAY.C(24): error C202: 'P5': undefined identifier
+DISPLAY.C(25): error C202: 'a': undefined identifier
+DISPLAY.C(26): error C202: 'a': undefined identifier
+DISPLAY.C(27): error C202: 'P7': undefined identifier
+DISPLAY.C(29): error C202: 'P7': undefined identifier
+DISPLAY.C(30): error C202: 'Delay': undefined identifier
+DISPLAY.C(31): error C202: 'P5': undefined identifier
+DISPLAY.C(33): error C202: 'P5': undefined identifier
+DISPLAY.C(44): error C202: 'P6': undefined identifier
+DISPLAY.C(45): error C202: 'Delay': undefined identifier
+DISPLAY.C(46): error C202: 'P6': undefined identifier
+DISPLAY.C(49): error C202: 'P6': undefined identifier
+DISPLAY.C(50): error C202: 'Delay': undefined identifier
+DISPLAY.C(51): error C202: 'P6': undefined identifier
+DISPLAY.C(54): error C202: 'P6': undefined identifier
+DISPLAY.C(55): error C202: 'Delay': undefined identifier
+DISPLAY.C(56): error C202: 'P6': undefined identifier
+DISPLAY.C(66): error C141: syntax error near 'add', expected ')'
+DISPLAY.C(68): error C202: 'P6': undefined identifier
+DISPLAY.C(69): error C202: 'Delay': undefined identifier
+DISPLAY.C(70): error C202: 'P6': undefined identifier
+DISPLAY.C(71): error C202: 'add': undefined identifier
+DISPLAY.C(72): error C202: 'data1': undefined identifier
+DISPLAY.C(83): error C208: '_DIS_1668': too many actual parameters
+DISPLAY.C(84): error C208: '_DIS_1668': too many actual parameters
+DISPLAY.C(85): error C208: '_DIS_1668': too many actual parameters
+compiling delay_fun.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling display.c...
+DISPLAY.H(21): error C141: syntax error near 'dat', expected ')'
+DISPLAY.H(23): error C141: syntax error near 'add', expected ')'
+display.c(2): warning C318: can't open file 'delay.h'
+DISPLAY.C(18): error C141: syntax error near 'dat', expected ')'
+DISPLAY.C(20): error C141: syntax error near 'i'
+DISPLAY.C(20): error C202: 'i': undefined identifier
+DISPLAY.C(21): error C141: syntax error near 'a'
+DISPLAY.C(21): error C202: 'a': undefined identifier
+DISPLAY.C(22): error C202: 'i': undefined identifier
+DISPLAY.C(24): error C202: 'P5': undefined identifier
+DISPLAY.C(25): error C202: 'a': undefined identifier
+DISPLAY.C(26): error C202: 'a': undefined identifier
+DISPLAY.C(27): error C202: 'P7': undefined identifier
+DISPLAY.C(29): error C202: 'P7': undefined identifier
+DISPLAY.C(30): error C202: 'Delay': undefined identifier
+DISPLAY.C(31): error C202: 'P5': undefined identifier
+DISPLAY.C(33): error C202: 'P5': undefined identifier
+DISPLAY.C(44): error C202: 'P6': undefined identifier
+DISPLAY.C(45): error C202: 'Delay': undefined identifier
+DISPLAY.C(46): error C202: 'P6': undefined identifier
+DISPLAY.C(49): error C202: 'P6': undefined identifier
+DISPLAY.C(50): error C202: 'Delay': undefined identifier
+DISPLAY.C(51): error C202: 'P6': undefined identifier
+DISPLAY.C(54): error C202: 'P6': undefined identifier
+DISPLAY.C(55): error C202: 'Delay': undefined identifier
+DISPLAY.C(56): error C202: 'P6': undefined identifier
+DISPLAY.C(66): error C141: syntax error near 'add', expected ')'
+DISPLAY.C(68): error C202: 'P6': undefined identifier
+DISPLAY.C(69): error C202: 'Delay': undefined identifier
+DISPLAY.C(70): error C202: 'P6': undefined identifier
+DISPLAY.C(71): error C202: 'add': undefined identifier
+DISPLAY.C(72): error C202: 'data1': undefined identifier
+DISPLAY.C(83): error C208: '_DIS_1668': too many actual parameters
+DISPLAY.C(84): error C208: '_DIS_1668': too many actual parameters
+DISPLAY.C(85): error C208: '_DIS_1668': too many actual parameters
+compiling delay_fun.c...
+Target not created

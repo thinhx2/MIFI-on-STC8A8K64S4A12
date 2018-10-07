@@ -15,8 +15,12 @@
 #define CLK_L  P5=0
 
 #define STB_H  P6=1
-#define STB_L  P6=1
+#define STB_L  P6=0
 
+void SMG_Init(void);
+void Send_data(u8 dat);
+void PT6965_Init(void);
+void DIS_1668(u8 add,u8 data1);
+void SMG_Text(void);
 
-void init(void);
 #endif

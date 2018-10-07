@@ -174,10 +174,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>19</ColumnNumber>
+      <ColumnNumber>16</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>1</TopLine>
-      <CurrentLine>19</CurrentLine>
+      <CurrentLine>12</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -188,24 +188,24 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>46</ColumnNumber>
+      <ColumnNumber>11</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>5</CurrentLine>
+      <TopLine>56</TopLine>
+      <CurrentLine>69</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\display.c</PathWithFileName>
       <FilenameWithoutPath>display.c</FilenameWithoutPath>
     </File>
     <File>
       <GroupNumber>1</GroupNumber>
-      <FileNumber>0</FileNumber>
+      <FileNumber>4</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>26</ColumnNumber>
+      <ColumnNumber>31</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>1</TopLine>
-      <CurrentLine>1</CurrentLine>
+      <CurrentLine>15</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\delay_fun.c</PathWithFileName>
       <FilenameWithoutPath>delay_fun.c</FilenameWithoutPath>
@@ -213,9 +213,9 @@
   </Group>
 
   <AlienFiles>
-    <PathWithFilename>E:\MIFI_PRJ\display.h</PathWithFilename>
+    <PathWithFilename>E:\MIFI_PRJ\delay_fun.h</PathWithFilename>
     <TopLine>1</TopLine>
-    <CurrentLine>12</CurrentLine>
+    <CurrentLine>5</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -239,9 +239,9 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>E:\MIFI_PRJ\delay_fun.h</PathWithFilename>
+    <PathWithFilename>E:\MIFI_PRJ\display.h</PathWithFilename>
     <TopLine>1</TopLine>
-    <CurrentLine>7</CurrentLine>
+    <CurrentLine>13</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -1605,37 +1605,37 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>4</ActiveTab>
+      <ActiveTab>1</ActiveTab>
       <Documents>
         <Doc>
           <Name>.\main.c</Name>
-          <ColumnNumber>19</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>19</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\display.c</Name>
-          <ColumnNumber>46</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>5</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>DISPLAY.H</Name>
-          <ColumnNumber>65</ColumnNumber>
+          <ColumnNumber>16</ColumnNumber>
           <TopLine>1</TopLine>
           <CurrentLine>12</CurrentLine>
         </Doc>
         <Doc>
-          <Name>E:\MIFI_PRJ\delay_fun.h</Name>
-          <ColumnNumber>25</ColumnNumber>
+          <Name>.\display.c</Name>
+          <ColumnNumber>11</ColumnNumber>
+          <TopLine>56</TopLine>
+          <CurrentLine>69</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>DISPLAY.H</Name>
+          <ColumnNumber>41</ColumnNumber>
           <TopLine>1</TopLine>
-          <CurrentLine>7</CurrentLine>
+          <CurrentLine>13</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>DELAY_FUN.H</Name>
+          <ColumnNumber>32</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>5</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\delay_fun.c</Name>
-          <ColumnNumber>26</ColumnNumber>
+          <ColumnNumber>31</ColumnNumber>
           <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
+          <CurrentLine>15</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>
