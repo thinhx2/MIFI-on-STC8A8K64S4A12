@@ -1,0 +1,6 @@
+"STARTUP.obj",
+"main.obj",
+"display.obj",
+"delay_fun.obj" 
+TO "mifi" 
+RAMSIZE(256) 
